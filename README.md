@@ -1,2 +1,5 @@
 # python-cursoemvideo
- Curso completo de Python do Curso em Vídeo (Aulas/Exercícios).
+ Lista de exercícios resolvidos de Python do Curso em Vídeo.
+
+ O curso completo pode ser encontrado no site: https://www.cursoemvideo.com/
+ 
