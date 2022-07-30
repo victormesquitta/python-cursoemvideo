@@ -2,7 +2,7 @@
 # mostre uma mensagem dizendo que ele foi multado.
 # A multa vai custar R$7,00 por cada Km acima do limite.
 
-vel = int(input('Qual é a sua velocidade? '))
+vel = int(input('Qual é a sua velocidade? [em km/h] '))
 if vel > 80:
     print('MULTADO! Você excedeu o limite permitido de 80km/h')
     print('Você deve pagar uma multa de R${}.00!'.format(7 * (vel - 80)))

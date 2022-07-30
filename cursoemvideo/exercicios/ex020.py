@@ -8,4 +8,4 @@ n3 = str(input('Terceiro aluno: '))
 n4 = str(input('Quarto aluno: '))
 lista = [n1, n2, n3, n4]
 ordem = random.sample(lista, 4)
-print('A ordem de aprentação será:\n{}.'.format(ordem))
+print('A ordem de apresentação será:\n{}.'.format(ordem))
