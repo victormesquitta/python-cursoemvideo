@@ -7,8 +7,8 @@
 # d) Em que posição está o time da Chapecoense.
 
 times = ('Atlético-MG', 'Flamengo', 'Palmeiras', 'Fortaleza', 'Corinthians',
-         'Bragantino', 'Fluminense', 'América-MG', 'Athlético-GO', 'Santos',
-         'Ceará SC', 'Internacional', 'São Paulo', 'Athletico-PR', 'Cuiabá',
+         'Bragantino', 'Fluminense', 'América-MG', 'Atlético-GO', 'Santos',
+         'Ceará SC', 'Internacional', 'São Paulo', 'Atlético-PR', 'Cuiabá',
          'Juventude', 'Grêmio', 'Bahia', 'Sport Recife', 'Chapecoense')
 print('-='*15)
 print('Lista de times do Brasileirão:', times)

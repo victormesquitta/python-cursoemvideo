@@ -13,7 +13,7 @@ for c in range(0, 5):
         while pos < len(lista):
             if valor <= lista[pos]:
                 lista.insert(pos, valor)
-                print(f'Adionado na posição {pos} da lista...')
+                print(f'Adicionado na posição {pos} da lista...')
                 break
             pos += 1
 print('-='*30)

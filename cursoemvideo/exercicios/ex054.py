@@ -6,7 +6,7 @@ atual = date.today().year
 contmenor = 0
 contmaior = 0
 for datas in range(1, 8):
-    ano = int(input('Em que ano a {}ª pessoas nasceu? '.format(datas)))
+    ano = int(input('Em que ano a {}ª pessoa nasceu? '.format(datas)))
     if atual - ano < 18:
         contmenor += 1
     else:

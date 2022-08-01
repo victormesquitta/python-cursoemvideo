@@ -13,7 +13,7 @@ while True:
         break
 lista.sort(reverse=True)
 print(f"{contador} elementos foram digitados.")
-print(f"Os valores em ordem descrescente são: {lista}")
+print(f"Os valores em ordem decrescente são: {lista}")
 if 5 in lista:
     print("O número 5 ESTÁ na lista.")
 else:

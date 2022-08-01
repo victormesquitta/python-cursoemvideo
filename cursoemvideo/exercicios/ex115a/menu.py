@@ -1,26 +1,15 @@
-# Dentro do pacote utilidadesCeV que criamos no desafio 111, temos um módulo chamado dado.
-# Crie uma função chamada leiaDinheiro() que seja capaz de funcionar como a função input(),
-# mas com uma validação de dados para aceitar apenas valores que sejam monetários.
+# Vamos criar um menu em Python, usando modularização.
 
-from cursoemvideo.exercicios.ex115a.lib.interface import *
-from cursoemvideo.exercicios.ex115a.lib.arquivo import *
+from cursoemvideo.exercicios.ex115c.lib.interface import *
 from time import sleep
 
-arq = 'cursoemvideo.txt'
-
-if not arquivoExiste(arq):
-    criarArquivo(arq)
 
 while True:
     opcao = menu(['Ver pessoas cadastradas', 'Cadastrar nova Pessoa', 'Sair do Sistema'])
     if opcao == 1:
-        #  Opção de listar o conteúdo de um arquivo.
-        lerArquivo(arq)
+        cabecalho(f'OPÇÃO {opcao}')
     elif opcao == 2:
-        cabecalho('NOVO CADASTRO')
-        nome = str(input("Nome: "))
-        idade = leiaInt('Idade: ')
-        cadastrar(arq, nome, idade)
+        cabecalho(f'OPÇÃO {opcao}')
     elif opcao == 3:
         cabecalho('Saindo do sistema... Até logo!')
         break

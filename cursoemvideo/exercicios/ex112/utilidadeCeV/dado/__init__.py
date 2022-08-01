@@ -5,4 +5,3 @@ def leiaDinheiro(msg):
             print(f'\033[1;31mERRO! "{res}" é uma resposta inválida!\033[m')
         else:
             return float(res)
-

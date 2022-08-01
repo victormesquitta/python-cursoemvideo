@@ -4,10 +4,10 @@
 # Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
 
 from datetime import date
-ano = int(input('Ano de nascimento: '))
-idade = 2021 - ano
-atual = date.today().year
-print('Quem nasceu em {} tem {} anos em 2021'.format(ano, idade))
+anonasc = int(input('Ano de nascimento: '))
+anoatual = date.today().year
+idade = anoatual - anonasc
+print('Quem nasceu em {} tem {} anos em {}'.format(anonasc, idade, anoatual))
 if idade < 18:
     tempo = 18 - idade
     alistamento = date.today().year + tempo

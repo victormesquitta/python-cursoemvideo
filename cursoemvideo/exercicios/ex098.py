@@ -22,7 +22,7 @@ def contagem(start, stop, step):
 contagem(1, 11, 1)
 contagem(10, 0, -2)
 print('=-' * 20)
-print('Agora é sua vez de personalizar a contamgem: ')
+print('Agora é sua vez de personalizar a contagem: ')
 inicio = int(input("Início: "))
 fim = int(input("Fim:    "))
 passo = int(input("Passo:  "))

@@ -1,4 +1,4 @@
-from aulas.uteis import numeros  # As lib estão no arquivo uteis.py
+from cursoemvideo.aulas.uteis import numeros  # As lib estão no arquivo uteis.py
 
 n = int(input('Digite um valor: '))
 fat = numeros.fatorial(n)

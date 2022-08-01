@@ -31,4 +31,4 @@ def leiaFloat(msg):
 #  Programa principal
 int = leiaInt("Digite um número Inteiro: ")
 real = leiaFloat("Digite um número Real: ")
-print(f"O numero inteiro digitado foi {int} e o real foi {real}.")
+print(f"O número inteiro digitado foi {int} e o real foi {real}.")

@@ -21,5 +21,5 @@ while continuacao != 'N':
     while continuacao not in 'SN':
         continuacao = str(input('Opção inválida. Quer continuar [S/N]? ')).strip().upper()
 media = soma / contador
-print('Você digitou {} números e a média entre eles foi {:.2f}'.format(contador, media))
+print('Você digitou {} números e a média entre eles resultou em {:.2f}'.format(contador, media))
 print('O maior número foi {} e o menor foi {}'.format(maior, menor))
